@@ -3,18 +3,26 @@ body{
     text-align: justify;
     margin: 0;
     font-size: 20px;
+    position: relative;
 }
 header{
+    top: 1px;
     text-align: center;
-    
+    position: sticky;
 }
 main{
     margin: 15px;
 }
+div{
+    padding-left: 300px;
+    padding-right: 150px;
+    border: 2px solid blue;
+    border
+}
 footer{
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin: 0;
-
+    padding-left: 300px;
+    padding-right: 150px;
+    border: 2px solid blue;
+    border
+    margin: 15px;
 }

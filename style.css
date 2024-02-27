@@ -1,24 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&display=swap');
+
+
 body{
     background-color: rgb(0, 0, 0);
-    margin: 0;
     font-size: 20px;
     color: white;
-    font-size: 25px;
-    }
+    font-family: "Anta", sans-serif;;
+
+}
+
 header{
     text-align: center;
+    top: 10px;
 }
+
 main{
-    margin: 15px;
+    margin: 2rem;
+    
+
+    }
+    div{
+        padding-right: 150px;
+        border: 2px solid blue;
+    }
+    footer{
+        border: 2px solid blue;
+        margin: 15px;
+        margin-bottom: 100px;
 }
-div{
-    padding-left: 300px;
-    padding-right: 150px;
-    border: 2px solid blue;
-}
-footer{
-    padding-left: 300px;
-    border: 2px solid blue;
-    margin: 15px;
-    margin-bottom: 100px;
-}
+
+
+

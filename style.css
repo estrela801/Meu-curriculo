@@ -1,33 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&display=swap');
 
-
+:root{
+    font-size: 16px;
+}
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     font-size: 20px;
-    color: white;
-    font-family: "Anta", sans-serif;;
-
+    color: rgb(0, 0, 0);
+    font-family: "anta", sans-serif;;
+    width: 80vw;
+    margin: auto;
+    border: 2px solid green;
 }
 
 header{
     text-align: center;
-    top: 10px;
+    top: 25px;
 }
 
 main{
     margin: 2rem;
-    
-
-    }
-    div{
-        padding-right: 150px;
-        border: 2px solid blue;
-    }
-    footer{
-        border: 2px solid blue;
-        margin: 15px;
-        margin-bottom: 100px;
+ }
+ 
+ h1{
+    font-size:25px;
+    padding:30px;
+ }
+ h2{
+    height: 30px;
+    text-align: center;
+ }
+p, li {
+    padding-bottom: 5px;
 }
-
+    
+footer{
+    border: 2px solid blue;
+    margin: 15px;
+    margin-bottom: 100px;
+}
+footer a {
+    padding-right: 15px;  
+}
+#apresentacao{
+    background-color: aqua;
+}
+#sobre-mim{
+    background-color: blueviolet;
+}
+#formacao{
+    background-color: aquamarine;
+}
+#competencias{
+    background-color: cornflowerblue;
+}
+#soft{
+    background-color: rgb(40, 186, 191);
+}
+#idiomas{
+    background-color: darkcyan;
+}
+#titulo{
+    font-size: 4rem;
+    margin: 1rem ;
+    padding: 1rem;
+}
+p{
+    line-height: 1.5;
+}
 
 

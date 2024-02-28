@@ -29,18 +29,22 @@ main{
  h2{
     height: 30px;
     text-align: center;
+    font-size: 1.5rem;
+    font-weight: 9      00;
+    text-transform: uppercase;
+    margin: 1rem;
  }
 p, li {
     padding-bottom: 5px;
 }
     
 footer{
-    border: 2px solid blue;
     margin: 15px;
     margin-bottom: 100px;
+    width: 100%;
 }
 footer a {
-    padding-right: 15px;  
+    padding-right: 50px;  
 }
 #apresentacao{
     background-color: aqua;
@@ -65,8 +69,10 @@ footer a {
     margin: 1rem ;
     padding: 1rem;
 }
-p{
+p, li{
     line-height: 1.5;
+    margin: 1rem 0;
 }
+
 
 

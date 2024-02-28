@@ -4,13 +4,13 @@
     font-size: 16px;
 }
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: "anta", sans-serif;;
     width: 80vw;
     margin: auto;
-    border: 2px solid green;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 header{
@@ -20,6 +20,10 @@ header{
 
 main{
     margin: 2rem;
+ }
+ main:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
  }
  
  h1{
@@ -34,22 +38,65 @@ main{
     text-transform: uppercase;
     margin: 1rem;
  }
-p, li {
-    padding-bottom: 5px;
-}
     
 footer{
     margin: 15px;
     margin-bottom: 100px;
     width: 100%;
+    text-align: center;
 }
 footer a {
     padding-right: 50px;  
 }
-#apresentacao{
+footer:hover{
+    background-color: dodgerblue;
+}
+p, li{
+    line-height: 1.5;
+    margin: 1rem 0;
+     padding-left: 10px;
+}
+::-webkit-scrollbar {
+    background-color: rgb(0, 0, 0);
+    width: 8px;
+}
+ ::-webkit-scrollbar-track{
+        background-color: rgb(43, 150, 226);
+     }
+    ::-webkit-scrollbar-thumb{
+        background-color: rgb(36, 36, 222);
+    }
+
+
+    #apresentacao:hover{
+        background-color: aqua;
+    }
+    #sobre-mim:hover{ 
+        background-color: blueviolet;
+    }
+    #formacao:hover{
+        background-color: aquamarine;
+    }
+    #competencias:hover{
+        background-color: cornflowerblue;
+    }
+    #soft:hover{
+        background-color: rgb(40, 186, 191);
+    }
+    #idiomas:hover{
+        background-color: darkcyan;
+    }
+    #titulo:hover{
+        font-size: 4rem;
+        margin: 1rem ;
+        padding: 1rem;
+    } 
+    
+
+    /* #apresentacao{
     background-color: aqua;
 }
-#sobre-mim{
+#sobre-mim{ 
     background-color: blueviolet;
 }
 #formacao{
@@ -68,11 +115,7 @@ footer a {
     font-size: 4rem;
     margin: 1rem ;
     padding: 1rem;
-}
-p, li{
-    line-height: 1.5;
-    margin: 1rem 0;
-}
+} */
 
 
 

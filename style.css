@@ -24,7 +24,7 @@ header {
 
 main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /* align-items: flex-start; */
     justify-content: center;
     align-content: center;
@@ -106,7 +106,7 @@ li {
 /* CORES*/
 
 #apresentacao:hover {
-    background-color: #00ffff;
+    background-color: #298686;
 }
 
 #sobre-mim:hover {
@@ -114,7 +114,7 @@ li {
 }
 
 #formacao:hover {
-    background-color: #7fffd4;
+    background-color: #00cb87;
 }
 
 #competencias:hover {
@@ -145,8 +145,8 @@ li {
     
 }
 #tecnologias:hover{
-    background-color: #00e3e3;
-}
+    background-image: linear-gradient(to bottom right, rgb(0, 170, 255), rgb(0, 128, 107), rgb(158, 48, 255)); 
+}  
 #tecnologias article h1 article {
     width: 30%;
 }
@@ -154,7 +154,7 @@ li {
 article{
     width: 70%;
     padding: 2rem;
-    background-color: #cecece;
+    /* background-color: #cecece; */
     
 }
 

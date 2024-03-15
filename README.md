@@ -1,3 +1,3 @@
 # meu-curriculo
 Este é meu curriculo
-ESte é o meu curriculo em HTML 
+Este é o meu curriculo em HTML 

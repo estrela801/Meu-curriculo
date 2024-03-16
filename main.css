@@ -1,0 +1,18 @@
+/* =================================== ESTILIZAÇÃO MAIN  ======================================= */
+#pai{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    
+}
+#main{
+    /* border: 2px solid red; */
+    margin: 0px 30px;
+    padding: 0 0 0 20px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 50px;
+}
+#main h2{
+    color: rgb(0, 8, 54);
+}

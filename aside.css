@@ -1,0 +1,17 @@
+/* =================ESTILIZAÇÃO ASIDE================= */
+aside{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: darkslategray;
+    color: white;
+}
+#aside{
+    padding-left: 20px;
+    width: 500px;
+    /* border: 2px solid purple; */
+   
+}
+
+a{
+    color: azure;
+}

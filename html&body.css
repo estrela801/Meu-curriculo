@@ -2,6 +2,9 @@
     :root{
         font-size: 16px;
     }
+    html{
+        background-color: gray;
+    }
 body{
     display: flex;
     /* flex-flow: column wrap; */
@@ -12,6 +15,13 @@ body{
     /* background-color: rgb(0, 255, 234); */
     /* border: 2px solid black; */
 }
+
+#main{
+    float: right;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
 h1{
    margin: 10px 20px 30px;
    padding: 8px 10px;
@@ -21,25 +31,57 @@ h2{
     font-size: 1.5rem;
     padding: 4px 6px;
     margin: 8px 15px;
+    
+}
+.border{
+    border-bottom: 3px black dashed;
 }
 ul{
     padding-left: 40px;
+    margin-top: 30px;
+    /* list-style-image: url('https://imgs.search.brave.com/QZxcLxgRBKy31vklpBkAUoYZCrPyzHPTzz_krkPOV_4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zLnpz/dC5jb20uYnIvY21z/LWFzc2V0cy8yMDIx/LzEyL21lbGhvci1i/b2xhLWRlLWJhc3F1/ZXRlLTEtLndlYnA'); */
+    list-style-type: square;
+    font-size: 16px;
+    /* width: 10px; */
 }
 li{
     padding: 5px 0;
+    margin-top: 20px;
 }
 section{
     padding: 0 10px;
 }
+/* section:hover{
+    transform:scale3d( 1, 1, 1) ;
+} */
 p{
-    margin: 16px 0;
+    margin: 16px 0 16px 0;
 }
 img{
-    width: 150px;
+    width: 100px;
     border-radius: 100px;
+    zoom: 1.8;
+    transition: transform 0.6s ease-in-out;
     
 }
+img:hover{ 
+    cursor: pointer; 
+    transform: scale(3.2) translate(80%,  50%);
+}
+    
+   
+
 span{
     padding-left: 50px;
 }
-
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.6s;
+    text-decoration: none;
+}
+a:hover{
+    /* background-color:rgba(0, 87, 128, 0.973); */
+    color: rgb(136, 255, 0);
+    text-decoration: underline ;
+    font-size: 18px;
+}

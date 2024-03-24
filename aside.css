@@ -1,13 +1,15 @@
 /* =================ESTILIZAÇÃO ASIDE================= */
 aside{
-    display: flex;
-    flex-flow: column wrap;
+    /* display: flex;
+    flex-flow: column wrap; */
+
+    float: left;
     background-color: darkslategray;
     color: white;
 }
 #aside{
     padding-left: 20px;
-    width: 500px;
+    width: 300px;
     /* border: 2px solid purple; */
    
 }
